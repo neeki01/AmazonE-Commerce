@@ -22,7 +22,7 @@ public class TC_04_AmazonManageProfileTest extends Launch_Quit{
     
 	@Test//(retryAnalyzer=utilityPackage.IRetryLogic.class)
 	
-	public void clickManageProfileTest() throws EncryptedDocumentException, IOException
+	public void clickManageProfileTest() throws EncryptedDocumentException, IOException, InterruptedException
 	{
 		
 		
@@ -60,6 +60,7 @@ public class TC_04_AmazonManageProfileTest extends Launch_Quit{
 //		wait.until(ExpectedConditions.visibilityOf(a1));
 	
 		amp.editPublicName();
+		Thread.sleep(1000);
 		amp.clickSaveBtn();
 		
 		WebElement a2=amp.getProfileName();
