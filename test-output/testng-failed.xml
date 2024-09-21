@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test in Chrome(failed)">
+    <classes>
+      <class name="amazon.ProjectTest.TC_15">
+        <methods>
+          <include name="addCartTo"/>
+          <include name="generic_methods01"/>
+          <include name="after_coderun"/>
+        </methods>
+      </class> <!-- amazon.ProjectTest.TC_15 -->
+      <class name="amazon.ProjectTest.TC_03_AmazonLoginFailTestt">
+        <methods>
+          <include name="generic_methods01"/>
+          <include name="after_coderun"/>
+          <include name="WrongCredentials"/>
+        </methods>
+      </class> <!-- amazon.ProjectTest.TC_03_AmazonLoginFailTestt -->
+    </classes>
+  </test> <!-- Test in Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="AmazonFlightTest.TC_02_Login"/>
+      <class name="AmazonFlightTest.TC_03_WrongCredentials"/>
+      <class name="AmazonFlightTest.TC_04_SearchOnWayFlight"/>
+      <class name="AmazonFlightTest.TC_05_SearchTwoWayFlight"/>
+      <class name="AmazonFlightTest.TC_06_DifferentClassses"/>    
+      <class name="AmazonFlightTest.TC_08_SelectSeat"/>
+      <class name="AmazonFlightTest.TC_09_MultiplePassenger"/>
+      <class name="AmazonFlightTest.TC_10_ViewFareDetails"/>
+      <class name="AmazonFlightTest.TC_11_VerifytestfieldsAndOffers"/>
+      <class name="AmazonFlightTest.TC_12_LoginSearchLogout"/>
+      <class name="AmazonFlightTest.TC_13_ApplyCode"/>
+      <class name="AmazonFlightTest.TC_14_RoundTripSearch"/>
+      <class name="AmazonFlightTest.TC_15_CheckPayement"/>  
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

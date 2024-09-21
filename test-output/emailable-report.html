@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test in Chrome</a></td><td class="num">11</td><td class="num">0</td><td class="num attn">1</td><td class="num attn">2</td><td class="num">280,155</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test in Chrome &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">amazon.ProjectTest.TC_03_AmazonLoginFailTestt</td><td><a href="#m0">WrongCredentials</a></td><td rowspan="1">1726926392489</td><td rowspan="1">26588</td></tr><tr class="failedodd"><td rowspan="1">amazon.ProjectTest.TC_15</td><td><a href="#m1">addCartTo</a></td><td rowspan="1">1726926300918</td><td rowspan="1">20074</td></tr><tr><th colspan="4">Test in Chrome &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="1">amazon.ProjectTest.TC_03_AmazonLoginFailTestt</td><td><a href="#m2">WrongCredentials</a></td><td rowspan="1">1726926357754</td><td rowspan="1">29223</td></tr><tr><th colspan="4">Test in Chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">amazon.ProjectTest.TC_02_AmazonLoginTest</td><td><a href="#m3">usernameTestcase</a></td><td rowspan="1">1726926173733</td><td rowspan="1">7434</td></tr><tr class="passedodd"><td rowspan="1">amazon.ProjectTest.TC_04_AmazonManageProfileTest</td><td><a href="#m4">clickManageProfileTest</a></td><td rowspan="1">1726926326663</td><td rowspan="1">17934</td></tr><tr class="passedeven"><td rowspan="1">amazon.ProjectTest.TC_05_AmazonSearchTest</td><td><a href="#m5">searchTestCase</a></td><td rowspan="1">1726926186263</td><td rowspan="1">11540</td></tr><tr class="passedodd"><td rowspan="1">amazon.ProjectTest.TC_06_AmazonSearchFilterTest</td><td><a href="#m6">searchByCategory</a></td><td rowspan="1">1726926203771</td><td rowspan="1">4408</td></tr><tr class="passedeven"><td rowspan="1">amazon.ProjectTest.TC_07_AmazonProductDetailsTest</td><td><a href="#m7">productDetails</a></td><td rowspan="1">1726926213472</td><td rowspan="1">8558</td></tr><tr class="passedodd"><td rowspan="1">amazon.ProjectTest.TC_08_AmazonSortProducTest</td><td><a href="#m8">SortByFeature</a></td><td rowspan="1">1726926226541</td><td rowspan="1">7860</td></tr><tr class="passedeven"><td rowspan="1">amazon.ProjectTest.TC_09_AmazonAddToCartTest</td><td><a href="#m9">addToCart</a></td><td rowspan="1">1726926240471</td><td rowspan="1">7298</td></tr><tr class="passedodd"><td rowspan="1">amazon.ProjectTest.TC_10_AmazonItemsAddedQuantity</td><td><a href="#m10">addedMoreQuantity</a></td><td rowspan="1">1726926251527</td><td rowspan="1">10203</td></tr><tr class="passedeven"><td rowspan="1">amazon.ProjectTest.TC_11_AmazonCheckout</td><td><a href="#m11">amazonCheckoutCode</a></td><td rowspan="1">1726926266063</td><td rowspan="1">20319</td></tr><tr class="passedodd"><td rowspan="1">amazon.ProjectTest.TC_12_AmazonPaymentMethodSelectAll</td><td><a href="#m12">usingCODOption</a></td><td rowspan="1">1726926425570</td><td rowspan="1">22976</td></tr><tr class="passedeven"><td rowspan="1">amazon.ProjectTest.TC_13</td><td><a href="#m13">offers</a></td><td rowspan="1">1726926292522</td><td rowspan="1">5412</td></tr></tbody>
+</table>
+<h2>Test in Chrome</h2><h3 id="m0">amazon.ProjectTest.TC_03_AmazonLoginFailTestt#WrongCredentials</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;a-alert-content&apos;]/ul/li/span&quot;}
+  (Session info: chrome=128.0.6613.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67e7456e482e15a6637b40fd07d885ea, findElement {using=xpath, value=//div[@class=&apos;a-alert-content&apos;]/ul/li/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\NEEKIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56007}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56007/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 67e7456e482e15a6637b40fd07d885ea
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
+	at amazon.Project.AmazonLogin.wrongPasswordExpected(AmazonLogin.java:61)
+	at amazon.ProjectTest.TC_03_AmazonLoginFailTestt.WrongCredentials(TC_03_AmazonLoginFailTestt.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">amazon.ProjectTest.TC_15#addCartTo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#twotabsearchtextbox&quot;}
+  (Session info: chrome=128.0.6613.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4984cb076de842279280530d683c7158, findElement {using=id, value=twotabsearchtextbox}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\NEEKIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55420}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55420/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4984cb076de842279280530d683c7158
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.clear(Unknown Source)
+	at amazon.Project.AmazonHome.search(AmazonHome.java:57)
+	at amazon.ProjectTest.TC_15.addCartTo(TC_15.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">amazon.ProjectTest.TC_03_AmazonLoginFailTestt#WrongCredentials</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;a-alert-content&apos;]/ul/li/span&quot;}
+  (Session info: chrome=128.0.6613.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c30209de3d138913ef2f0f03ef733bf8, findElement {using=xpath, value=//div[@class=&apos;a-alert-content&apos;]/ul/li/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\NEEKIK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55769}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55769/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c30209de3d138913ef2f0f03ef733bf8
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
+	at amazon.Project.AmazonLogin.wrongPasswordExpected(AmazonLogin.java:61)
+	at amazon.ProjectTest.TC_03_AmazonLoginFailTestt.WrongCredentials(TC_03_AmazonLoginFailTestt.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">amazon.ProjectTest.TC_02_AmazonLoginTest#usernameTestcase</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">amazon.ProjectTest.TC_04_AmazonManageProfileTest#clickManageProfileTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">amazon.ProjectTest.TC_05_AmazonSearchTest#searchTestCase</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">amazon.ProjectTest.TC_06_AmazonSearchFilterTest#searchByCategory</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">amazon.ProjectTest.TC_07_AmazonProductDetailsTest#productDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">amazon.ProjectTest.TC_08_AmazonSortProducTest#SortByFeature</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">amazon.ProjectTest.TC_09_AmazonAddToCartTest#addToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">amazon.ProjectTest.TC_10_AmazonItemsAddedQuantity#addedMoreQuantity</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">amazon.ProjectTest.TC_11_AmazonCheckout#amazonCheckoutCode</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">amazon.ProjectTest.TC_12_AmazonPaymentMethodSelectAll#usingCODOption</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">amazon.ProjectTest.TC_13#offers</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

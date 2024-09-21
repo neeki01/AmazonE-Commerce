@@ -1,0 +1,11 @@
+# Created at 2024-09-03T11:12:58.301
+Illegal type at constant pool entry 87 in class amazon.ProjectTest.IListnersAmazon
+Exception Details:
+  Location:
+    amazon/ProjectTest/IListnersAmazon.onTestFailedButWithinSuccessPercentage(Lorg/testng/ITestResult;)V @2: invokespecial
+  Reason:
+    Constant pool index 87 is invalid
+  Bytecode:
+    0000000: 2a2b b700 57b1                         
+
+
